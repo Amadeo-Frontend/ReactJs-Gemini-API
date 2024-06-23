@@ -2,15 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-  margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
+  min-width: 300px;
   min-height: 100vh;
   background-color: #171719;
   color: azure;
+  font-family: "Scope One", serif;
+  overflow-x: hidden;
 }
-
